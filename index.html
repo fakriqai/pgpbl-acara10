@@ -15,6 +15,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- GeoJSON -->
+    <script src="data/Administrasi_Tegal_Geojson.geojson"></script>
+    <script src="data/ATM_Tegal_Geojson.geojson"></script>
+    <script src="data/Jaringan_Jalan_Geojson.geojson"></script>
+    <script src="data/Administrasi_LN_Geojson.geojson"></script>
     <style>
       html,
       body,
@@ -101,6 +106,15 @@
         attribution: '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href="https://www.unsorry.net" target="_blank">unsorry@2022</a>',
       });
       basemap.addTo(map);
+
+      // ADD Layer Titik Rumah Makan
+      var layer_titik_RM;
+
+      layer_titik_RM = L.geoJson(atm_tegal, {
+        pointToLayer: function (feature, latlng) {
+          return L.marker(latlng);
+        },
+      }).addTo(map);
     </script>
   </body>
 </html>
