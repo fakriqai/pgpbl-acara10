@@ -32,7 +32,7 @@
     <div id="map"></div>
     <script>
       /* Initial Map */
-      var map = L.map("map").setView([-7.9, 110.45], 10);
+      var map = L.map("map").setView([-6.830192807477854, 107.14790071865912], 10);
 
       /* Tile Basemap */
       var basemap = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -67,7 +67,7 @@
           });
         },
       });
-      $.getJSON("data/point_puskesmas.geojson", function (data) {
+      $.getJSON("data/data_kerusakan.geojson", function (data) {
         point.addData(data);
         map.addLayer(point);
       });
