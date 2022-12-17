@@ -32,7 +32,7 @@
     <div id="map"></div>
     <script>
       /* Initial Map */
-      var map = L.map("map").setView([-6.830192807477854, 107.14790071865912], 10);
+      var map = L.map("map").setView([-6.836009799847553, 107.214199566762], 15);
 
       /* Tile Basemap */
       var basemap = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -41,7 +41,7 @@
       basemap.addTo(map);
 
       var redMarker = L.AwesomeMarkers.icon({
-        icon: "plus-circle",
+        icon: "house-crack",
         markerColor: "green",
         stylePrefix: "fas",
         prefix: "fa",
