@@ -1,6 +1,6 @@
-var point = {
+{
 "type": "FeatureCollection",
-"name": "kerusakan",
+"name": "data_kerusakan",
 "features": [
 { "type": "Feature", "properties": { "nama": "WAHYUDI", "alamat": "Jl. Opo Mustopo", "telp": "081284123447", "jmlh_kg": 4.0, "objek": "Bangunan Rumah", "kategori": "Parah", "latitude": -6.84729569, "longitude": 107.21856240300001 }, "geometry": null },
 { "type": "Feature", "properties": { "nama": "ACHMADI", "alamat": "Jl. Opo Mustopo", "telp": "089630309951", "jmlh_kg": 5.0, "objek": "Bangunan Rumah", "kategori": "Parah", "latitude": -6.837713275, "longitude": 107.22352558599999 }, "geometry": null },
