@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "kerusakan",
+"features": [
+{ "type": "Feature", "properties": { "nama": "WAHYUDI", "alamat": "Jl. Opo Mustopo", "telp": "081284123447", "jmlh_kg": 4.0, "objek": "Bangunan Rumah", "kategori": "Parah", "latitude": -6.84729569, "longitude": 107.21856240300001 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "ACHMADI", "alamat": "Jl. Opo Mustopo", "telp": "089630309951", "jmlh_kg": 5.0, "objek": "Bangunan Rumah", "kategori": "Parah", "latitude": -6.837713275, "longitude": 107.22352558599999 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "RURIN HERMAWANTI R", "alamat": "Jl. Opo Mustopo", "telp": "085286237915", "jmlh_kg": 6.0, "objek": "Bangunan Rumah", "kategori": "Parah", "latitude": -6.846747082, "longitude": 107.208983066 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "MUCHAMAD RIYADHOH", "alamat": "Jl. Babakan Maleber", "telp": "08971506779", "jmlh_kg": 2.0, "objek": "Bangunan Rumah", "kategori": "Parah", "latitude": -6.846032281, "longitude": 107.205559283 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "S A R N O", "alamat": "Jl. Babakan Lewo", "telp": "089694938291", "jmlh_kg": 4.0, "objek": "Bangunan Rumah", "kategori": "Tidak Parah", "latitude": -6.833546691, "longitude": 107.220020127 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "SAID UMAR BIN FARIS", "alamat": "Jl. Babakan Lewo", "telp": "085327333861", "jmlh_kg": 2.0, "objek": "Bangunan Rumah", "kategori": "Sedang", "latitude": -6.831668833, "longitude": 107.223053613 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "SUKRESNO", "alamat": "Jl. Babakan Lewo", "telp": "085399275281", "jmlh_kg": 3.0, "objek": "Bangunan Rumah", "kategori": "Sedang", "latitude": -6.844396642, "longitude": 107.22271696200001 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "PEMERINTAH", "alamat": "Jl. Babakan Maleber", "telp": "085240233277", "jmlh_kg": 0.0, "objek": "Fasilitas Umum", "kategori": "Sedang", "latitude": -6.834068284, "longitude": 107.215281816 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "PEMERINTAH", "alamat": "Jl. Kp pasir layung", "telp": "085399074249", "jmlh_kg": 0.0, "objek": "Fasilitas Umum", "kategori": "Sedang", "latitude": -6.835260852, "longitude": 107.211438426 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "PEMERINTAH", "alamat": "Jl. Kp pasir layung", "telp": "085329804377", "jmlh_kg": 0.0, "objek": "Fasilitas Umum", "kategori": "Parah", "latitude": -6.838949511, "longitude": 107.213113659 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "PEMERINTAH", "alamat": "Jl. Babakan Lewo", "telp": "085213200303", "jmlh_kg": 0.0, "objek": "Fasilitas Umum", "kategori": "Parah", "latitude": -6.838524985, "longitude": 107.20874967100001 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "PEMERINTAH", "alamat": "Jl. Sukaluyu", "telp": "085696228417", "jmlh_kg": 0.0, "objek": "Jaringan Jalan", "kategori": "Parah", "latitude": -6.848838246, "longitude": 107.21353978800001 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "PEMERINTAH", "alamat": "Jl. Sukaluyu", "telp": "085813221927", "jmlh_kg": 0.0, "objek": "Jaringan Jalan", "kategori": "Parah", "latitude": -6.84317451, "longitude": 107.215877753 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "PEMERINTAH", "alamat": "Jl. Sukaluyu", "telp": "081315989578", "jmlh_kg": 3.0, "objek": "Bangunan Rumah", "kategori": "Tidak Parah", "latitude": -6.842273036, "longitude": 107.209164016 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "RISMIYATI HARDJONO", "alamat": "Jln Bojong sari", "telp": "085813221927", "jmlh_kg": 4.0, "objek": "Bangunan Rumah", "kategori": "Tidak Parah", "latitude": -6.839080034, "longitude": 107.204609038 }, "geometry": null },
+{ "type": "Feature", "properties": { "nama": "NGATMIN SOBARUDIN", "alamat": "Jln Bojong sari", "telp": "081286616893", "jmlh_kg": 5.0, "objek": "Bangunan Rumah", "kategori": "Tidak Parah", "latitude": -6.834971568, "longitude": 107.20562184000001 }, "geometry": null }
+]
+}

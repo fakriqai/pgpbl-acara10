@@ -1,0 +1,482 @@
+{
+  "type": "FeatureCollection",
+  "name": "point_puskesmas",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 1,
+        "fid": 1,
+        "Puskesmas": "Moyudan",
+        "X": -7.7759927078700004,
+        "Y": 110.252781075,
+        "alamat": "Ds.Sumberagung Moyudan",
+        "telpon": 2746497173.0,
+        "kelas": "Pusk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 2.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.252781074579005, -7.77599270787417] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 2,
+        "fid": 2,
+        "Puskesmas": "Seyegan",
+        "X": -7.71925939574,
+        "Y": 110.300983524,
+        "alamat": "Seyegan, Margokaton",
+        "telpon": 2744364822.0,
+        "kelas": "Puskesmas Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 8.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 8.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.300983524246007, -7.71925939573807] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 3,
+        "fid": 3,
+        "Puskesmas": "Gamping I",
+        "X": -7.8007029338600002,
+        "Y": 110.320253311,
+        "alamat": "Jl.Wates Km.5 Delisari",
+        "telpon": 2746499870.0,
+        "kelas": "Pusk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 11.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.320253311157003, -7.80070293386066] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 4,
+        "fid": 4,
+        "Puskesmas": "Gamping II",
+        "X": -7.7831183810600004,
+        "Y": 110.337774131,
+        "alamat": "Dsn.Patran Ds.Bayuraden",
+        "telpon": 2745013351.0,
+        "kelas": "Pusk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 26.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.337774131190002, -7.7831183810635] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 5,
+        "fid": 5,
+        "Puskesmas": "Mlati I",
+        "X": -7.75448508787,
+        "Y": 110.36284927299999,
+        "alamat": "Jl.Wijaya Kusuma,Sinduadi",
+        "telpon": 274539614.0,
+        "kelas": "Pusk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 33.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.362849273332003, -7.75448508787078] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 6,
+        "fid": 6,
+        "Puskesmas": "Mlati II",
+        "X": -7.7322313845000004,
+        "Y": 110.327931816,
+        "alamat": "Cabakan, Sumberadi",
+        "telpon": 274865909.0,
+        "kelas": "Puskesmas Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 18.0,
+        "akreditasi": "Sudah",
+        "BOR": 69.5,
+        "lATIHAN_DB": 2.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.327931815943998, -7.73223138450048] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 7,
+        "fid": 7,
+        "Puskesmas": "Depok II",
+        "X": -7.7566384898500003,
+        "Y": 110.40816289599999,
+        "alamat": "Jl.Lely III Perumnas CC",
+        "telpon": 274887797.0,
+        "kelas": "Pusk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 20.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.408162896014005, -7.75663848984551] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 8,
+        "fid": 8,
+        "Puskesmas": "Depok III",
+        "X": -7.7782780741500002,
+        "Y": 110.389467036,
+        "alamat": "Komp.Colombono.50A",
+        "telpon": 274512595.0,
+        "kelas": "Puk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 6.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.389467036387003, -7.77827807415006] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 9,
+        "fid": 9,
+        "Puskesmas": "Berbah",
+        "X": -7.8204050523199999,
+        "Y": 110.43003446500001,
+        "alamat": "Sribit Ds.Sendangtirto",
+        "telpon": 2742841790.0,
+        "kelas": "Puskesmas Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 10.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 6.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.430034465480006, -7.8204050523207] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 10,
+        "fid": 10,
+        "Puskesmas": "Prambanan",
+        "X": -7.7618901716200002,
+        "Y": 110.489473901,
+        "alamat": "Jl.Prambanan-Piyungan",
+        "telpon": 274496907.0,
+        "kelas": "Puk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 21.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.489473900741004, -7.76189017161752] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 11,
+        "fid": 11,
+        "Puskesmas": "Kalasan",
+        "X": -7.7585860202800001,
+        "Y": 110.449307017,
+        "alamat": "Sidokerto,Purwomartani",
+        "telpon": 274497471.0,
+        "kelas": "Puskesmas Rawat Inap",
+        "karaterist": "PKM Pedesaan",
+        "jumlah_bed": 20.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 18.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.449307016925005, -7.75858602027739] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 12,
+        "fid": 12,
+        "Puskesmas": "Ngemplak I",
+        "X": -7.69969050066,
+        "Y": 110.465466908,
+        "alamat": "Koroulon Kidul Bimomartan",
+        "telpon": 2742873046.0,
+        "kelas": "Puskesmas Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 10.0,
+        "akreditasi": "Sudah",
+        "BOR": 34.0,
+        "lATIHAN_DB": 4.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.465466908419998, -7.69969050065649] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 13,
+        "fid": 13,
+        "Puskesmas": "Ngemplak II",
+        "X": -7.7031788882500001,
+        "Y": 110.444712326,
+        "alamat": "Jetis Ds.Widodomartani",
+        "telpon": 2744461277.0,
+        "kelas": "Pusk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "Belum",
+        "BOR": 0.0,
+        "lATIHAN_DB": 11.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.444712325756001, -7.70317888824689] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 14,
+        "fid": 14,
+        "Puskesmas": "Ngaglik I",
+        "X": -7.7221719053599998,
+        "Y": 110.402751412,
+        "alamat": "Jl.Kaliurang Km 10",
+        "telpon": 274888958.0,
+        "kelas": "Pusk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 12.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.402751412279997, -7.72217190536378] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 15,
+        "fid": 15,
+        "Puskesmas": "Ngaglik II",
+        "X": -7.6896159390800003,
+        "Y": 110.388474429,
+        "alamat": "Kayunan Ds.Donoharjo",
+        "telpon": 2744360557.0,
+        "kelas": "Pusk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 19.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.388474428696, -7.6896159390788] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 16,
+        "fid": 16,
+        "Puskesmas": "Sleman",
+        "X": -7.7019450947400001,
+        "Y": 110.346438659,
+        "alamat": "Jl.Kapt.Hariyadi no.06",
+        "telpon": 274868374.0,
+        "kelas": "Puskesmas Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 8.0,
+        "akreditasi": "Sudah",
+        "BOR": 25.0,
+        "lATIHAN_DB": 28.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.346438658934005, -7.70194509474418] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 17,
+        "fid": 17,
+        "Puskesmas": "Tempel I",
+        "X": -7.6582218119499998,
+        "Y": 110.327117293,
+        "alamat": "Jl.Magelang Km 17,5",
+        "telpon": 2744363045.0,
+        "kelas": "Puskesmas Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 8.0,
+        "akreditasi": "Sudah",
+        "BOR": 55.65,
+        "lATIHAN_DB": 5.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.327117293106994, -7.65822181194662] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 18,
+        "fid": 18,
+        "Puskesmas": "Tempel II",
+        "X": -7.70065572751,
+        "Y": 110.288035245,
+        "alamat": "Kemusuh Ds.Banyurejo",
+        "telpon": 8112645488.0,
+        "kelas": "Pusk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 3.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.288035244726998, -7.70065572750906] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 19,
+        "fid": 19,
+        "Puskesmas": "Turi",
+        "X": -7.6539567483299997,
+        "Y": 110.379737965,
+        "alamat": "Randusongo,Donokerto,Turi",
+        "telpon": 274896008.0,
+        "kelas": "Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 10.0,
+        "akreditasi": "Sudah",
+        "BOR": 10.18,
+        "lATIHAN_DB": 13.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.379737965375, -7.65395674832803] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 20,
+        "fid": 20,
+        "Puskesmas": "Pakem",
+        "X": -7.6601871637399999,
+        "Y": 110.421635593,
+        "alamat": "Tegalsari Km.17,5 Pakem",
+        "telpon": 274895591.0,
+        "kelas": "Pusk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 0.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.421635592791006, -7.66018716374086] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 21,
+        "fid": 21,
+        "Puskesmas": "Cangkringan",
+        "X": -7.6647766345399999,
+        "Y": 110.456421636,
+        "alamat": "Panggung Ds.Argomulyo",
+        "telpon": 2742860007.0,
+        "kelas": "Pusk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 1.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.456421636238005, -7.66477663453581] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 22,
+        "fid": 22,
+        "Puskesmas": "Godean I",
+        "X": -7.7640774609000003,
+        "Y": 110.291738967,
+        "alamat": "Jl.Pandean Ds.Sidoluhur",
+        "telpon": 274797534.0,
+        "kelas": "Puskesmas Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 9.0,
+        "akreditasi": "Sudah",
+        "BOR": 28.83,
+        "lATIHAN_DB": 12.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.291738966962001, -7.76407746090471] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 23,
+        "fid": 23,
+        "Puskesmas": "Depok I",
+        "X": -7.7749637354300001,
+        "Y": 110.43138117399999,
+        "alamat": "Nanggulan Ds.Maguwoharjo",
+        "telpon": 274486852.0,
+        "kelas": "Pusk.Non Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 7.0,
+        "akreditasi": "sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 8.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.431381174296007, -7.77496373542848] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 24,
+        "fid": 24,
+        "Puskesmas": "Minggir",
+        "X": -7.7212405407100002,
+        "Y": 110.238901943,
+        "alamat": "Minggir III,Sendang Agung",
+        "telpon": 8112645117.0,
+        "kelas": "Puskesmas Rawat Inap",
+        "karaterist": "PKM Perkotaan",
+        "jumlah_bed": 10.0,
+        "akreditasi": "Sudah",
+        "BOR": 58.0,
+        "lATIHAN_DB": 3.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.238901943312001, -7.72124054070698] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid_1": 25,
+        "fid": 25,
+        "Puskesmas": "Godean II",
+        "X": -7.7766451639499996,
+        "Y": 110.30386089,
+        "alamat": "Nogosari  Ds.Sidokarto",
+        "telpon": 2746496511.0,
+        "kelas": "Pusk.Non Rawat Inap",
+        "karaterist": "PKM Pedesaan",
+        "jumlah_bed": 0.0,
+        "akreditasi": "Sudah",
+        "BOR": 0.0,
+        "lATIHAN_DB": 10.0
+      },
+      "geometry": { "type": "Point", "coordinates": [110.303860889589004, -7.77664516395229] }
+    }
+  ]
+}
