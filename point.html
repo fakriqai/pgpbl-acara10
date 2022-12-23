@@ -55,10 +55,17 @@
 
       /* GeoJSON Point */
       var point = L.geoJson(null, {
-        pointToLayer: function (feature, latlng) {
-          return L.marker(latlng, {
-            icon: berat,
-          });
+        style: function (feature) {
+          if (feature.properties.kategori === "Berat") {
+            return L.marker(latlng, {
+              icon: berat,
+            });
+          }
+          if (feature.properties.kategori === "Ringan") {
+            return L.marker(latlng, {
+              icon: ringan,
+            });
+          }
         },
 
         onEachFeature: function (feature, layer) {
@@ -86,7 +93,7 @@
       });
       $.getJSON("data/data_rusak.geojson", function (data) {
         point.addData(data);
-        map.addLayer(point);
+        map.addLayer(point, { style: style });
       });
     </script>
   </body>

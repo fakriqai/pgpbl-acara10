@@ -57,17 +57,15 @@
 
         onEachFeature: function (feature, layer) {
           var popupContent = "Waktu: " + feature.properties.Tanggal__G + "<br>" + "Magnitudo: " + feature.properties.Magnitudo + "<br>" + "Jenis Kedalaman: " + feature.properties.Kedalaman;
-          "<br>" +
-            "Koordinat: " +
-            feature.properties.latitude +
-            layer.on({
-              click: function (e) {
-                point.bindPopup(popupContent);
-              },
-              mouseover: function (e) {
-                point.bindTooltip(feature.properties.Magnitudo);
-              },
-            });
+
+          layer.on({
+            click: function (e) {
+              point.bindPopup(popupContent);
+            },
+            mouseover: function (e) {
+              point.bindTooltip(feature.properties.Magnitudo);
+            },
+          });
         },
       });
       $.getJSON("data/gempa.geojson", function (data) {
