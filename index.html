@@ -49,7 +49,7 @@
 
       /* GeoJSON Point */
       var point = L.geoJson(null, {
-        pointToLayer: function (feature, latlng) {
+        pointToLayer: function (features, latlng) {
           return L.marker(latlng, {
             icon: gempa,
           });
