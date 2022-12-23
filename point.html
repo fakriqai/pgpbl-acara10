@@ -56,12 +56,12 @@
       /* GeoJSON Point */
       var point = L.geoJson(null, {
         pointToLayer: function (feature, latlng) {
-          if (feature.properties.kerusakan === "Berat") {
+          if (feature.properties.kategori === "Berat") {
             return L.marker(latlng, {
               icon: berat,
             });
           }
-          if (feature.properties.kerusakan === "Ringan") {
+          if (feature.properties.kategori === "Ringan") {
             return L.marker(latlng, {
               icon: ringan,
             });
