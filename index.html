@@ -56,14 +56,10 @@
         },
 
         onEachFeature: function (feature, layer) {
-          var popupContent = "Waktu: " + feature.properties.Tanggal__G + "<br>" + "Magnitudo: " + feature.properties.Magnitudo + "<br>" + "Jenis Kedalaman: " + feature.properties.Kedalaman;
-
+          var popupContent = "Waktu Kejadian: " + feature.properties.Tanggal__G + "<br>" + "Kedalaman: " + feature.properties.Kedalaman + "<br>" + "Magnitudo: " + feature.properties.Magnitudo;
           layer.on({
             click: function (e) {
               point.bindPopup(popupContent);
-            },
-            mouseover: function (e) {
-              point.bindTooltip(feature.properties.Magnitudo);
             },
           });
         },
