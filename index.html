@@ -49,37 +49,25 @@
 
       /* GeoJSON Point */
       var point = L.geoJson(null, {
-        pointToLayer: function (features, latlng) {
+        pointToLayer: function (feature, latlng) {
           return L.marker(latlng, {
             icon: gempa,
           });
         },
 
-        onEachFeature: function (features, layer) {
-          var popupContent =
-            "Waktu: " +
-            features.properties.Tanggal__G +
-            "<br>" +
-            "Magnitudo: " +
-            features.properties.Magnitudo +
-            " SR" +
-            "<br>" +
-            "Jenis Kedalaman: " +
-            features.properties.Kedalaman +
-            " meter" +
-            "<br>" +
+        onEachFeature: function (feature, layer) {
+          var popupContent = "Waktu: " + feature.properties.Tanggal__G + "<br>" + "Magnitudo: " + feature.properties.Magnitudo + "<br>" + "Jenis Kedalaman: " + feature.properties.Kedalaman;
+          "<br>" +
             "Koordinat: " +
-            features.properties.latitude +
-            " , " +
-            features.properties.longitude;
-          layer.on({
-            click: function (e) {
-              point.bindPopup(popupContent);
-            },
-            mouseover: function (e) {
-              point.bindTooltip(features.properties.Magnitudo);
-            },
-          });
+            feature.properties.latitude +
+            layer.on({
+              click: function (e) {
+                point.bindPopup(popupContent);
+              },
+              mouseover: function (e) {
+                point.bindTooltip(feature.properties.Magnitudo);
+              },
+            });
         },
       });
       $.getJSON("data/gempa.geojson", function (data) {
