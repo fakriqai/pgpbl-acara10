@@ -40,9 +40,15 @@
       });
       basemap.addTo(map);
 
-      var redMarker = L.AwesomeMarkers.icon({
+      var berat = L.AwesomeMarkers.icon({
         icon: "house-damage",
         markerColor: "red",
+        stylePrefix: "fas",
+        prefix: "fa",
+      });
+      var ringan = L.AwesomeMarkers.icon({
+        icon: "house-damage",
+        markerColor: "orange",
         stylePrefix: "fas",
         prefix: "fa",
       });
@@ -50,19 +56,40 @@
       /* GeoJSON Point */
       var point = L.geoJson(null, {
         pointToLayer: function (feature, latlng) {
-          return L.marker(latlng, {
-            icon: redMarker,
-          });
+          if (feature.properties.kerusakan === "Berat") {
+            return L.marker(latlng, {
+              icon: berat,
+            });
+          }
+          if (feature.properties.kerusakan === "Ringan") {
+            return L.marker(latlng, {
+              icon: ringan,
+            });
+          }
         },
 
         onEachFeature: function (feature, layer) {
-          var popupContent = "Nama Puskesmas: " + feature.properties.Puskesmas + "<br>" + "Kelas: " + feature.properties.kelas + "<br>" + "Alamat: " + feature.properties.alamat;
+          var popupContent =
+            "Nama Pemilik: " +
+            feature.properties.nama +
+            "<br>" +
+            "Nomor: " +
+            feature.properties.telp +
+            "<br>" +
+            "Alamat: " +
+            feature.properties.alamat +
+            "<br>" +
+            "Jenis Objek: " +
+            feature.properties.objek +
+            "<br>" +
+            "Tingkat Kerusakan: " +
+            feature.properties.kategori;
           layer.on({
             click: function (e) {
               point.bindPopup(popupContent);
             },
             mouseover: function (e) {
-              point.bindTooltip(feature.properties.Puskesmas);
+              point.bindTooltip(feature.properties.kategori);
             },
           });
         },
