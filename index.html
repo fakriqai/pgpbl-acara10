@@ -58,18 +58,20 @@
         onEachFeature: function (feature, layer) {
           var popupContent =
             "Waktu: " +
-            feature.properties.Tanggal__G +
+            features.properties.Tanggal__G +
             "<br>" +
             "Magnitudo: " +
-            feature.properties.Magnitudo +
+            features.properties.Magnitudo +
+            " SR" +
             "<br>" +
             "Jenis Kedalaman: " +
-            feature.properties.Kedalaman +
+            features.properties.Kedalaman +
+            " meter" +
             "<br>" +
             "Koordinat: " +
-            feature.properties.latitude +
+            features.properties.latitude +
             " , " +
-            feature.properties.longitude;
+            features.properties.longitude;
           layer.on({
             click: function (e) {
               point.bindPopup(popupContent);
