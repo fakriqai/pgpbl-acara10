@@ -55,7 +55,7 @@
 
       /* GeoJSON Point */
       var point = L.geoJson(null, {
-        style: function (feature) {
+        pointToLayer: function (feature, latlng) {
           if (feature.properties.kategori === "Berat") {
             return L.marker(latlng, {
               icon: berat,
@@ -93,7 +93,7 @@
       });
       $.getJSON("data/data_rusak.geojson", function (data) {
         point.addData(data);
-        map.addLayer(point, { style: style });
+        map.addLayer(point);
       });
     </script>
   </body>
